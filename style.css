@@ -126,9 +126,65 @@ img {
 	border: 1.0px solid #c2c2c2;
 	padding: 7px 9px;
 	margin-top: 10px;
+}
+
+.recipies {
+ background-color: #ffffff;
+ width: 1120px;
+ margin: auto;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: space-between;
 
 }
 
+.recipies_wrapper {
+	width: 1024px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.recipie_one img {
+	width: 315px;
+	height: 206px;
+	padding-top: 36px;
+	padding-right: 36px;
+}
+
+.recipie_one p {
+	font-family: "Josefin sans", sans;
+	font-size: 18px;
+	letter-spacing: 0.045em;
+	margin-top: 6px;
+}
+
+.recipie_two img {
+	width: 315px;
+	height: 206px;
+	padding-top: 36px;
+	padding-right: 36px;
+}
+
+.recipie_two p {
+	font-family: "Josefin sans", sans;
+	font-size: 18px;
+	letter-spacing: 0.045em;
+	margin-top: 6px;
+}
+
+.recipie_three img {
+	width: 315px;
+	height: 206px;
+	padding-top: 36px;
+}
+
+.recipie_three p {
+	font-family: "Josefin sans", sans;
+	font-size: 18px;
+	letter-spacing: 0.045em;
+	margin-top: 6px;
+}
 
 
 
