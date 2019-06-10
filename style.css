@@ -6,13 +6,12 @@
  body {
  	background: #eaeaea;
  	width: 1100px;
- 	margin: 0 auto;
- 	
+ 	margin: 0 auto;	
  }
 
 header {
- margin-right: auto;
- margin-left: auto;
+	 margin-right: auto;
+	 margin-left: auto;
 }
 
 .logo_head {
@@ -76,7 +75,6 @@ img {
 	text-align: center;
 	vertical-align: 3px;
 	margin-right: 0;
-
 }
 
 .find_nav img {
@@ -87,10 +85,8 @@ img {
 	margin-left: 6px;
 }
 
-
 .logo_in_ban {
 	width: 248px;
-
 }
 
 .bananas_foster {
@@ -222,7 +218,6 @@ div.Pirog_image {
 
 } 
 
-
 .Pirog_recipe {
 	grid-area: Pirog_recipe;
 	height: 440px;
@@ -299,7 +294,6 @@ p.Pirog_header {
 	border-bottom: 2px solid rgba(85, 85, 85, 0.2);
 }
 
-
 .container {
 	overflow: hidden;
 }
@@ -371,6 +365,56 @@ section .icons_network{
 	float: right;
     clear: both;
 }
+
+footer {
+	width: 1120px;
+	opacity: 0.8;
+	background-color: #000000;
+	margin: auto;
+	padding: 72px 54px 55px 86px;
+	box-sizing: border-box;
+	display: block;
+	margin-top: 150px;
+
+}
+
+.footer_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px; 
+}
+
+.footer_logo  {
+ 	width: 87px;
+}
+
+.footer_links {
+  width: 401px;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.footer_links a {
+  font-family: "Josefin Sans", sans;
+  color: #fefefe; 
+}
+
+.flaticon-google-plus,
+.flaticon-twitter,
+.flaticon-facebook {
+    color:  #fefefe;
+    opacity: 0.5;
+}
+
 
 /* fonts */
 
