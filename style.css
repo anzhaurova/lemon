@@ -371,7 +371,7 @@ footer {
 	opacity: 0.8;
 	background-color: #000000;
 	margin: auto;
-	padding: 72px 54px 55px 86px;
+	padding: 65px 54px 45px 86px;
 	box-sizing: border-box;
 	display: block;
 	margin-top: 150px;
@@ -387,20 +387,32 @@ footer {
 
 .footer_logo  {
  	width: 87px;
+ 	margin-top: -18px;
+}
+
+footer .footer-middle {
+	width: fit-content;
 }
 
 .footer_links {
-  width: 401px;
   opacity: 0.5;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-  padding: 0;
-  margin: 0;
+  padding-top: 0;
+  margin-top: 0;
   list-style: none;
-  display: flex;
+  display: inline-block;
   justify-content: space-between; 
+}
+
+.footer_links li {
+	float: left;
+}
+
+.footer_links li:not(first-child) {
+	margin-left: 10px;
 }
 
 .footer_links a {
@@ -408,12 +420,31 @@ footer {
   color: #fefefe; 
 }
 
-.flaticon-google-plus,
-.flaticon-twitter,
-.flaticon-facebook {
-    color:  #fefefe;
+.footer_copyright {
     opacity: 0.5;
+	color:#fefefe;
+	font-family: "Josefin Sans", sans;
+	font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+
 }
+
+footer .footer-right {
+    padding-top: 23px;
+	overflow: hidden;
+	float: right;
+}
+
+footer .footer-right .icons_footer {
+	float: right;
+	color:  #fefefe;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+
 
 
 /* fonts */
@@ -440,9 +471,10 @@ footer {
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: normal;
 	margin-left: 20px;
+	color: #fefefe;
 }
 
 .flaticon-vision:before { content: "\f100"; }
